@@ -3,7 +3,9 @@
     "css": "npx stylelint *.{css,scss} --fix",
     "js": "npx eslint . --fix",
     "removeeslint": "npm uninstall --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x",
-    "installeslint": "npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x"
+    "installeslint": "npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -22,6 +24,7 @@
   "description": "<a name=\"readme-top\"></a>",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fredo509/AwesomeBook-Es6.git"
@@ -34,6 +37,7 @@
   },
   "homepage": "https://github.com/fredo509/AwesomeBook-Es6#readme",
   "dependencies": {
+    "lodash": "^4.17.21",
     "luxon": "^3.3.0",
     "pkg": "^5.8.1"
   }
