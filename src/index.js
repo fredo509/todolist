@@ -1,5 +1,9 @@
+import './style.css';
+import _ from 'lodash';
+import printMe from './print.js';
+
 const showList = () => {
-  const html = `
+    const html = `
     <main id="toDo">
         <div class="title">
             <h3>Today's To Do</h3>
@@ -20,7 +24,7 @@ const showList = () => {
         </div>
     </main>
     `;
-  document.body.innerHTML = html;
+    document.body.innerHTML = html;
 };
 
 document.body.onload = showList();
