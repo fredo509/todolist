@@ -1,26 +1,32 @@
 import './style.css';
 import printMe from './print.js';
 
+const MyList = [{
+  description: 'Finish microverse project',
+  completed: true,
+  index: 0,
+}];
+
 const showList = () => {
   const html = `
     <main id="toDo">
         <div class="title">
             <h3>Today's To Do</h3>
-            <button class="bnt-refresh">R</button>
+            <button class="btn-refresh"><img src="../images/refresh.png" alt="refresh img"></button>
         </div>
         <div class="WriteList">
             <input type="text" class="write" placeholder="Add to your list">
         </div>
         <div class="WriteList">
             <div class="WriteList">
-                <input type="checkbox" class="selectList" value="futureKeys">
-                <input type="text" class="write" readonly value="FutureKey">
+                <input type="checkbox" class="selectList">
+                <input type="text" class="write" readonly value=${MyList}>
             </div>
             <div class="treeDot">
                 <p>:</p>
             </div>
-            
         </div>
+         <button class="btn-refresh clean">Clean all completed </button>
     </main>
     `;
   document.body.innerHTML = html;

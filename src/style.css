@@ -1,37 +1,51 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #toDo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 50vh;
-    width: 70vw;
-    background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  width: 70vw;
+  border: solid 1px lightblue;
 }
 
 .title {
-    display: flex;
-    width: 95%;
-    justify-content: space-between;
-    margin-bottom: 15px;
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .WriteList {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
 }
 
 .write {
-    width: 100%;
-    height: 30px;
-    margin: 0;
+  width: 100%;
+  height: 30px;
+  margin: 0;
+}
+
+.btn-refresh {
+  background: none;
+  border: none;
+}
+
+.clean {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(211, 211, 211);
+  color: rgb(156, 156, 156);
 }
