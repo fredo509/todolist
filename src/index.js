@@ -1,8 +1,8 @@
 import './style.css';
 import printMe from './print.js';
 
-const MyList = [{
-  description: 'Finish microverse project',
+const myList = [{
+  description: 'test',
   completed: true,
   index: 0,
 }];
@@ -20,7 +20,7 @@ const showList = () => {
         <div class="WriteList">
             <div class="WriteList">
                 <input type="checkbox" class="selectList">
-                <input type="text" class="write" readonly value=${MyList}>
+                <input type="text" class="write" id="inputRead" value = ${myList[0].description} readonly>
             </div>
             <div class="treeDot">
                 <p>:</p>
