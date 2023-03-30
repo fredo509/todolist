@@ -1,5 +1,5 @@
 const showList = () => {
-const html = `
+  const html = `
     <main id="toDo">
         <div class="title">
             <h3>Today's To Do</h3>
@@ -14,7 +14,7 @@ const html = `
          <button class="clean">Clean all completed </button>
     </main>
     `;
-    document.body.innerHTML = html;
+  document.body.innerHTML = html;
 };
 
 export default showList;
