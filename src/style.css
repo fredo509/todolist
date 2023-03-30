@@ -70,6 +70,6 @@ body {
   width: 38px;
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   border: none;
 }
