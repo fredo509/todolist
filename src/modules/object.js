@@ -10,7 +10,7 @@ const myList = [{
 },
 {
   description: 'Add 3 task in my object',
-  completed: false,
+  completed: true,
   index: 2,
 }];
 
