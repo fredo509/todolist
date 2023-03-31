@@ -1,7 +1,7 @@
 {
   "name": "todolist",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a name=\"readme-top\"></a>",
   "private": true,
   "scripts": {
     "build": "webpack",
@@ -35,5 +35,14 @@
     "webpack-cli": "^5.0.1",
     "webpack-dev-middleware": "^6.0.2",
     "webpack-dev-server": "^4.13.1"
-  }
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredo509/todolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fredo509/todolist/issues"
+  },
+  "homepage": "https://github.com/fredo509/todolist#readme"
 }

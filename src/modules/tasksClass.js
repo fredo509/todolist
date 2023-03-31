@@ -17,7 +17,7 @@ export default class Tasks {
   updateTasks = () => {
     this.getFromLocalStorage();
     const temp = this.tasks;
-    document.querySelector('.mylist').innerHTML = '';
+    document.querySelector('.mylist').innerHTML = ' ';
     this.tasks.forEach((task, i) => {
       task.index = i + 1;
       document.querySelector('.mylist').innerHTML += `<li>
@@ -77,7 +77,7 @@ export default class Tasks {
   };
 
   clear = () => {
-    document.querySelector('#new-task-title').value = '';
+    document.querySelector('#new-task-title').value = ' ';
   };
 
   clearAllCompleted = () => {
