@@ -1,22 +1,43 @@
 import './style.css';
-import printMe from './print.js';
-import showList from './modules/Loadpage.js';
-import myList from './modules/object.js';
+import Tasks from './modules/tasksClass.js';
 
-document.body.onload = showList();
+const newTaskDescription = document.querySelector('#new-task-title');
+const enter = document.querySelector('#enter-btn');
+const container = document.querySelector('.mylist');
+const clearBtn = document.querySelector('.clear-button');
 
-let html = '';
-const listItem = document.getElementById('listItem');
+const task = new Tasks();
 
-myList.forEach((element, index) => {
-  element = index;
-  html += `<div class="WriteList">
-                <input type="checkbox" class="selectList">
-                <input type="text" class="write" id="inputRead" value ="${myList[index].description}" readonly>
-                <p>:</p>
-            </div>`;
-
-  listItem.innerHTML = html;
+document.addEventListener('DOMContentLoaded', () => {
+  task.updateTasks();
 });
 
-printMe();
+newTaskDescription.addEventListener('keydown', (e) => {
+  if (newTaskDescription.value.length > 0 && e.code === 'Enter') {
+    e.preventDefault();
+    task.createTask(e);
+  }
+});
+
+enter.addEventListener('click', task.createTask);
+
+container.addEventListener('click', (e) => {
+  if (e.target.classList.contains('delete')) {
+    const targetId = +e.target.getAttribute('id');
+    task.deleteTask(targetId - 1);
+  }
+});
+
+container.addEventListener('focusin', (e) => {
+  e.target.classList.add('yellow-bkg');
+  e.target.parentNode.classList.add('yellow-bkg');
+});
+
+container.addEventListener('focusout', (e) => {
+  e.target.classList.remove('yellow-bkg');
+  e.target.parentNode.classList.remove('yellow-bkg');
+});
+
+clearBtn.addEventListener('click', () => {
+  task.clearAllCompleted();
+});
