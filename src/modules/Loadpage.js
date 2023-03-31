@@ -6,7 +6,7 @@ const showList = () => {
             <button class="btn-refresh"></button>
         </div>
         <div class="WriteList">
-            <input type="text" class="write" placeholder="Add to your list"><button class="btn-Add"></button>
+            <input type="text" class="write" placeholder="Add to your list" id="wr"><button type="button"  class="btn-Add" id="btnA"></button>
         </div>
         <div class="lg" id="listItem">
            
