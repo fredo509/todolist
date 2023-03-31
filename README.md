@@ -230,6 +230,6 @@ I would like to thank's to Microverse
 
 ## 📝 License <a name="license" href="https://choosealicense.com/licenses/mit/">MIT</a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./license) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
