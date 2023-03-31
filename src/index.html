@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
-    <title>To Do List </title>
-</head>
+  </head>  
+
 <body>
+  <div class="list-container">
+    <div class="list-header list-row">
+      <h3 class="list-title">Today's To Do</h3>
+      <div class="icon-container update-icon-container"></div>
+    </div>
+    <div class="input-field-container list-row">
+      <input class="input-field" type="text" name="new-task-title" id="new-task-title" placeholder="Add to your list..."/>
+      <div class="icon-container enter-icon-container" id="enter-btn"></div>
+    </div>
+    <ul class="mylist"></ul>
+    <div class="clear-button-container list-row">
+      <button class="clear-button" type="button">Clear All Completed</button>
+    </div>
+  </div>  
 </body>
-<script src="../dist/index.bundle.js"></script>
+<script src="index.js" type="module"></script>
 <script src="../dist/runtime.bundle.js"></script>
+<script src="../dist/index.bundle.js"></script>
 <script src="../dist/print.bundle.js"></script>
-</body>
 </html>
