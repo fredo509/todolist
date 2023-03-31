@@ -1,4 +1,4 @@
-// import './style.css';
+import './style.css';
 import Tasks from './modules/tasksClass.js';
 
 const newTaskDescription = document.querySelector('#new-task-title');

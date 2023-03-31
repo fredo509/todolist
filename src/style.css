@@ -43,7 +43,7 @@ body {
 .update-icon-container {
   width: 30px;
   height: 30px;
-  background-image: url('./images/update.png');
+  background-image: url('../images/update.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -60,7 +60,7 @@ body {
 .enter-icon-container {
   width: 20px;
   height: 20px;
-  background-image: url('./images/enter.png');
+  background-image: url('../images/enter.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -90,7 +90,7 @@ body {
 .task-icon-container {
   width: 15px;
   height: 40px;
-  background-image: url('./images/delete.png');
+  background-image: url('../images/delete.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
