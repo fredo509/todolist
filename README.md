@@ -87,7 +87,7 @@ In this second assignment we refactored objects to classes and refractor script 
 
 To get a local copy up and running, follow these steps.
 
-https://github.com/fredo509/AwesomeBook-Es6
+https://github.com/fredo509/todolist
 ### Prerequisites
 
 In order to run this project you need:
@@ -105,7 +105,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
-https://github.com/fredo509/AwesomeBook-Es6
+https://github.com/fredo509/todolist
 
 <!--
 Example commands:
@@ -191,7 +191,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[It will accept Bitcoin]**
+
 - [ ] **[It will be conected to internet]**
 - [ ] **[It will do something amazing]**
 
