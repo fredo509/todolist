@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Mariano's Porfolio] <a name="about-project"></a>
+# 📖 [Fredo509] <a name="about-project"></a>
 
-**[Awsome Books]** is a practice about manipulating DOM and using objects to store data, also preserve data in local storage
+**[TO do List ]** is a practice about manipulating DOM and using objects to store data, also preserve data in local storage
 
 In this second assignment we refactored objects to classes and refractor script into modules. 
 
@@ -66,9 +66,8 @@ In this second assignment we refactored objects to classes and refractor script 
 
 - **[Local Storage to preserve data]**
 - **[DOM manipularion using JS]**
-- **[Display live date using JS]**
 - **[Fragement code in modules]**
-- **[Live demo]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
